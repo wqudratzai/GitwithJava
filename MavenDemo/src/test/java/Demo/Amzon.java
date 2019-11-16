@@ -31,7 +31,8 @@ WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By
 
 driver.findElement(By.id("dddddd"));
 
-driver.findElement(By.class("aaaaa"));
+driver.findElement(By.className("aaaaa"));
+driver.findElement(By.id("jjjjjjjj"));
 		
 		
 		
